@@ -94,10 +94,12 @@ section.content {
     margin-bottom: 2rem;
   }
   &__main {
-    height: 54.4rem;
-    position: relative;
     // overflow: hidden;
+    position: relative;
     &--img {
+    }
+    img {
+      height: 100%;
     }
 
     &--text {
@@ -109,6 +111,7 @@ section.content {
       padding: 3rem 4rem;
       background-color: rgb(0, 0, 0);
       opacity: 0.702;
+      z-index: 3;
 
       h3 {
         color: $color-white;

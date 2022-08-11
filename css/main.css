@@ -223,8 +223,10 @@ section.content {
   margin-bottom: 2rem;
 }
 .news__main {
-  
   position: relative;
+}
+.news__main img {
+  height: 100%;
 }
 .news__main--text {
   height: 25.5%;
@@ -235,6 +237,7 @@ section.content {
   padding: 3rem 4rem;
   background-color: rgb(0, 0, 0);
   opacity: 0.702;
+  z-index: 3;
 }
 .news__main--text h3 {
   color: #fff;
